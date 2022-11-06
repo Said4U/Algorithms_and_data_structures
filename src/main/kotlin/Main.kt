@@ -1,11 +1,8 @@
-import structures.ArrayListStructures
+import sorting.selectionSort
 
 fun main(){
 
-    val list = ArrayListStructures()
-
-//    list.remove()
-    list.add(4)
-    println(list.get(0))
-    println(list.capacity())
+    val array = arrayListOf(5, 2, 18, 24, 3, 17, 5, 0)
+    array.selectionSort()
+    println(array)
 }
